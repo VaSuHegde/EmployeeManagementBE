@@ -21,7 +21,7 @@ import com.example.demo.service.EmployeeService;
 public class EmployeeController {
 	
 	@Autowired
-	private EmployeeService employeeService = new EmployeeService();
+	private EmployeeService employeeService;
 	
 	//API
 	@GetMapping("/getMessage")
